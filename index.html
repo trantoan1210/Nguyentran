@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <link rel="icon" href="https://i1.wp.com/hinhdongso2.wap.sh/hinhdong9/tinhyeu/traitimtinhyeu128x128/Hinhnenso1.com-hinh-dong-.001.gif">
+    <title>Nguyễn Trà</title>
+</head>
+<body onload="javascript:teclear();">
+    <div id="TextContent"></div>
+    <div>
+        <iframe src="https://www.nhaccuatui.com/mh/background/A3CPk9If5PKA" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      </div>
+      <script language="javascript" type="text/javascript">
+        mensaje =
+'<font size="6" face="Courier New" color="#ff0000">Là thư bạn đang đọc.....<br></font>' + ' <br>' +
+
+'<font color="#ff0000" size="4">Dù thời gian chúng ta quen biết nhau không lâu.........</font><br>' +
+
+'<br>    ' +
+
+'<font size="4" color="#ff0000"> Nhưng đấy thời gian tớ có thể bên cậu là khoảng thời gian đáng quý trong cuộc đời tớ.....</font><br>' +
+
+'<br>' +
+
+'<font size="4" color="#ff0000">Tớ chỉ cần nghe tiếng cậu cười là tim tớ như tan trải ra !!!!</font>  <br> <br>           ' +
+
+'  <font size="4" color="#ff0000"> Dù vậy, có nhiều khi tớ im lặng, để cậu có thể nói chuyện với những ngưỡi khác...... Nhưng không thiểu sao tim mình hơi hơi hơi nhói~~~~~ </font>' +
+'    <br>                <br>' +
+'<font size="4" color="#ff0000">Nhưng mình sẽ luôn đứng sau cậu ngắm nhìn cậu là đủ rồi !</font>'+ 
+'                    <br>' +
+
+'<p align="left"> <font face="Courier New" color="#ff0000" size="6">Nhớ Hãy Luôn Mĩm Cười Cậu nhé !!! </font></p>';
+        line = 0;
+        cursor = '_';
+        function teclear() {
+            if (line == mensaje.length) cursor = '';
+            document.getElementById('TextContent').innerHTML = mensaje.substring(0, line) + cursor;
+            var objDiv = document.getElementById("TextContent");
+            objDiv.scrollTop = objDiv.scrollHeight;
+            if (line++ < mensaje.length) setTimeout("teclear()", 60);
+        }
+    </script>
+</body>
+</html>
